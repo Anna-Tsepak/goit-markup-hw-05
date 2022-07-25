@@ -26,19 +26,17 @@
 					</a>
 					<ul class="site-nav list">
 						<li class="item">
-							<a href="./index.html" class="link"><span class="studio">Студия</span></a>
+							<a class="site-nav-link current" href="./index.html"><span class="studio">Студия</span></a>
 						</li>
 						<li class="item">
-							<a href="./portfolio.html" class="link">Портфолио</a>
+							<a class="site-nav-link" href="./portfolio.html">Портфолио</a>
 						</li>
 						<li class="item">
-							<a href="" class="link">Контакты</a>
+							<a class="site-nav-link" href="">Контакты</a>
 						</li>
 					</ul>
 					<!--Contacts-->
 					<ul class="auth-nov list">
-						<li class="item"></li>
-						<li class="item"></li>
 						<li class="item">
 							<a href="mailto:info@devstudio.com" class="link-auth-now">
 								<svg width="16px" height="12px" class="icon-contacts">
@@ -134,24 +132,25 @@
 					<!--what we do-->
 					<h2 class="sections">Чем мы занимаемся</h2>
 					<ul class="aplication-list list">
-						<div class="aplication-examples">
-							<li class="item-sample">
+						<li class="item-sample">
+							<div class="aplication-examples">
 								<img src="./images/box1.jpg" alt="notebook" width="370" />
-							</li>
-							<p class="aplication">Десктопні додатки</p>
-						</div>
-						<div class="aplication-examples">
-							<li class="item-sample">
+								<p class="aplication">Десктопні додатки</p>
+							</div>
+						</li>
+						<li class="item-sample">
+							<div class="aplication-examples">
 								<img src="./images/box2.jpg" alt="telephone" width="370" />
-							</li>
-							<p class="aplication">Мобільні додатки</p>
-						</div>
-						<div class="aplication-examples">
-							<li class="item-sample">
+								<p class="aplication">Мобільні додатки</p>
+							</div>
+						</li>
+						<li class="item-sample">
+							<div class="aplication-examples">
 								<img src="./images/box3.jpg" alt="planshet" width="370" />
-							</li>
-							<p class="aplication">Дизайнерські рішення</p>
-						</div>
+
+								<p class="aplication">Дизайнерські рішення</p>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</section>
@@ -434,11 +433,9 @@
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button data-modal-close type="button" class="modal-batton">
-					<a class="link-modal" href="#">
-						<svg width="18px" height="18px" class="icon-modal">
-							<use href="./images/sprite.svg#icon-close"></use>
-						</svg>
-					</a>
+					<svg width="18px" height="18px" class="icon-modal">
+						<use href="./images/sprite.svg#icon-close"></use>
+					</svg>
 				</button>
 			</div>
 		</div>
